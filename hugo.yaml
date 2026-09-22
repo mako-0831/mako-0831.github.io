@@ -2,7 +2,7 @@ baseURL: "https://mako-0831.github.io/"
 locale: "zh-CN"
 defaultContentLanguage: "zh"
 hasCJKLanguage: true
-title: "Mako 的个人博客"
+title: "Aodu的个人博客"
 theme: "PaperMod"
 
 pagination:
@@ -25,13 +25,14 @@ outputs:
 
 params:
   env: production
-  title: "Mako 的个人博客"
+  title: "Aodu的个人博客"
   description: "记录技术、学习与生活。"
   keywords:
-    - 博客
     - 技术
-    - 学习
-  author: "Mako"
+    - 笔记
+    - 生活
+    - 想法
+  author: "Aodu"
   DateFormat: "2006 年 1 月 2 日"
   defaultTheme: auto
   disableThemeToggle: false
@@ -45,8 +46,8 @@ params:
   UseHugoToc: true
 
   homeInfoParams:
-    Title: "你好，我是 Mako 👋"
-    Content: "欢迎来到我的个人网站。这里会记录技术探索、学习笔记，以及偶尔的生活随想。"
+    Title: "你好，欢迎来到这个网络上的小角落。"
+    Content: "欢迎来到我的个人网站。这里会记录技术探索、学习笔记，以及个人的生活随想。"
 
   socialIcons:
     - name: github
