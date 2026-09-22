@@ -1,0 +1,11 @@
+# Hugo 生成内容和本地缓存
+/public/
+/.tmp-public/
+/resources/_gen/
+/.hugo_build.lock
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

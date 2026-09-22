@@ -1,0 +1,81 @@
+baseURL: "https://mako-0831.github.io/"
+locale: "zh-CN"
+defaultContentLanguage: "zh"
+hasCJKLanguage: true
+title: "Mako 的个人博客"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Mako 的个人博客"
+  description: "记录技术、学习与生活。"
+  keywords:
+    - 博客
+    - 技术
+    - 学习
+  author: "Mako"
+  DateFormat: "2006 年 1 月 2 日"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+
+  homeInfoParams:
+    Title: "你好，我是 Mako 👋"
+    Content: "欢迎来到我的个人网站。这里会记录技术探索、学习笔记，以及偶尔的生活随想。"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mako-0831"
+    - name: rss
+      url: "/index.xml"
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 40
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: false
